@@ -9,9 +9,9 @@ permissions:
 
 jobs:
 
-  # =========================
+  
   # DEVELOPMENT PLAN
-  # =========================
+ 
 
   plan-dev:
     name: Terraform Plan - Development
@@ -57,9 +57,9 @@ jobs:
           path: tfplan
 
 
-  # =========================
+  
   # DEVELOPMENT APPLY
-  # =========================
+ 
 
   apply-dev:
     name: Terraform Apply - Development
@@ -102,9 +102,9 @@ jobs:
         run: terraform apply -auto-approve tfplan
 
 
-  # =========================
+ 
   # PRODUCTION PLAN
-  # =========================
+ 
 
   plan-prod:
     name: Terraform Plan - Production
